@@ -32,7 +32,7 @@ public class WelcomeActivity extends AppCompatActivity {
         btnCustomer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent customer = new Intent(WelcomeActivity.this, CreateMapV1.class);
+                Intent customer = new Intent(WelcomeActivity.this, CostumerLoginRegisterActivity.class);
                 startActivity(customer);
                 finish();
                 return;
